@@ -42,6 +42,7 @@ p {
      font-family: 'Poppins', sans-serif;
      color: #181520;
      font-weight: bold;
+
 }     
 
 /*estilos del header y de sus hijos*/
@@ -147,7 +148,6 @@ main{
     gap:2%;
     margin:2%;
 }
-
 .card{
     width: 100%;
     display:flex;
@@ -157,8 +157,7 @@ main{
 }    
 
 .card img{
-    width: 100%;
-    
+    width: 100%;  
 }
 
 footer{
@@ -201,7 +200,7 @@ body {
 
 /*Estilos de las fuentes*/
 
-h1 {
+.animate__titulo {
       color: #0c090c;
       padding: 0.2%;
       font-size: 1.8em;
