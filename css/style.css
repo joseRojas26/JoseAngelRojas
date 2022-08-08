@@ -95,7 +95,7 @@ p {
   }
   .snip1284 a {
     padding: 0 0.6em;
-    color: rgba(255, 255, 255, 0.5);
+    color: #181520;
     position: relative;
     text-decoration: none;
   }
@@ -143,10 +143,10 @@ main{
 
 .contenedorFotos{
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows :auto;
-    gap:2%;
-    margin:2%;
+    gap: 2%;
+    margin: 2%;
 }
 .card{
     width: 100%;
@@ -193,7 +193,6 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "header"
-                         "main"
                         "footer"
    
 }
@@ -247,34 +246,6 @@ p {
     padding: 2%;
 }
 
-main{
-    grid-area: main;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorFotos{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows :auto;
-    gap: 2%;
-    margin:3%;
-}
-
-.card{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}    
-
-.card img{
-    width: 100%;
-    
-}
 
 footer{
     background-color: #9a270c;
