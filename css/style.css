@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
-    background-color: #005395;
     padding-bottom: 3em;
 }
 /* Menu bootstrap */
@@ -22,8 +21,19 @@ body {
 }
 
 .azul {
-    background-color: #012C4B;
+    background-color: #000000;
 }
+/* Main */
+ main {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 6%; 
+ }
+
+ .page {
+    color: #efb810;
+ }
 
 /* Hover y efectos 
 .snip1284 {
@@ -79,14 +89,15 @@ body {
   .snip1284 .current a:after {
     height: 100%;
   }
-/*
+*/
 footer{
     background-color: #9a270c;
     position: absolute;
     bottom: 0%;
     width: 100%;
-
 }
+
+
 
 
 
