@@ -9,8 +9,6 @@
     <!-- CSS GRID -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Jose Blog</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- ICONO -->
     <link rel="shortcut icon" href="../Multimedia/JoseAngelFotoIcono.ico" type="image/x-icon">
     <!-- LINK REDES SOCIALES -->
@@ -44,55 +42,87 @@
 
     <!-- Contenido Main -->
 
-<main>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../multimedia/ColegioSanMartindePorres.jpg" class="d-block w-100" alt="ColegioSanMartindePorres">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Colegio San Martín de Porres</h5>
-              <p>Estudie primaria y secundaria.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../multimedia/Unimar.jpg" class="d-block w-100" alt="UniversidadUnimar">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Universidad de Margarita</h5>
-              <p>Estudie 6 semestres de Idiomas Modernos.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../multimedia/coderhouse.jpg" class="d-block w-100" alt="CoderHouse">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>CoderHouse</h5>
-              <p>Actualmente estudiando Desarrollo web.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    <main>
+    <section class="contenedorFotos">
+ <section>
+    <h1>
+        Universidad de Margarita
+    </h1>
+     <p>
+        Estuide un breve periodo de tiempo idiomas modernos entre 2015 hasta 2018
+     </p>
+     <div class="card">
+        <img src="../multimedia/Unimar.jpg" alt="UniversidaddeMargarita">
+     </div>
+ </section>
+
+ <section>
+    <h1>
+        Instituto Da Vinci
+    </h1>
+    <p>
+        Estudie Diseño y Programación de Videojuegos desde el 2019 hasta 2021
+    </p>
+    <div class="card">
+        <img src="../multimedia/DaVinci.jpg" alt="DaVinci">
+    </div>
+ </section>
+
+ <section>
+    <h1>
+        CoderHouse
+    </h1>
+    <p>
+        Estudiando en la actualidad Desarrollo Web Full Stack
+    </p>
+    <div class="card">
+        <img src="../multimedia/coderhouse.jpg" alt="CoherHouse">
+    </div>
+ </section>
+</section>
 </main>
 <footer>
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/jose.angel.9047"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+    
+            <!-- Instagram -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/joseangelrl_/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
 
-    <a href="https://www.instagram.com/joseangelrl_/"><i class="bi bi-instagram"></i></a>
-
-    <a href="https://wa.me/5492926454392"><i class="bi bi-whatsapp"></i></a>
-  </footer>
+            <!-- Github -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/joseRojas26"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright
+        </div>
+      </footer>
 </div>
-<!-- Js Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
 </html>

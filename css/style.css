@@ -7,73 +7,28 @@
 /* Fuente*/ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
-/* Iconos redes sociales */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 body {
-    background-color: #ed927f;
-    position: relative;
+    background-color: #005395;
     padding-bottom: 3em;
-    min-height: 100vh;
+}
+.navbar {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 8%;
 }
 
- /*Estilos del contenedor*/
-
- .gridContainer{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                         "main"
-                        "footer"
-   
+.a.nav-link {
+    color: #C711A4;
 }
 
-/*Estilos de las fuentes*/
-
-h1 {
-      color: #0c090c;
-      padding: 0.2%;
-      font-size: 1.8em;
-      font-family: 'Roboto', sans-serif;
-}
-p {
-     font-size: 1em;
-     font-family: 'Poppins', sans-serif;
-     color: #181520;
-     font-weight: bold;
-
-}     
-
-/*estilos del header y de sus hijos*/
-.encabezado{
-    grid-area: header;
-  
+.azul {
+    background-color: #012C4B;
 }
 
-.encabezado nav {
-    background-color: #9a270c;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-.menu {
-    width: 100%;
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 2rem;
-    list-style-type: none;
-    color: #181520;
-}
-/* Hover y efectos */
+/* Hover y efectos 
 .snip1284 {
     font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
@@ -127,39 +82,7 @@ p {
   .snip1284 .current a:after {
     height: 100%;
   }
-
-.encabezado nav img {
-    width: 10%;
-    padding: 2%;
-}
-
-main{
-    grid-area: main;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorFotos{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows :auto;
-    gap: 2%;
-    margin: 2%;
-}
-.card{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}    
-
-.card img{
-    width: 100%;  
-}
-
+/*
 footer{
     background-color: #9a270c;
     position: absolute;
@@ -168,15 +91,9 @@ footer{
 
 }
 
-footer a {
-    font-size: 2rem;
-}
 
-.bi {
-    color: #0c090c;
-}
 
-/* Estudios */
+/* Estudios 
 
 
 body {
@@ -188,16 +105,7 @@ body {
 
  /*Estilos del contenedor*/
 
- .gridContainer{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                        "footer"
-   
-}
-
-/*Estilos de las fuentes*/
+/*Estilos de las fuentes
 
 .animate__titulo {
       color: #0c090c;
@@ -212,41 +120,7 @@ p {
      font-weight: bold;
 }     
 
-/*estilos del header y de sus hijos*/
-.encabezado{
-    grid-area: header;
-  
-}
-
-.encabezado nav {
-    background-color: #9a270c;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-.menu {
-    width: 100%;
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 2rem;
-    list-style-type: none;
-    color: #181520;
-}
-
-.encabezado nav img {
-    width: 10%;
-    padding: 2%;
-}
-
-
+/*estilos del header y de sus hijos
 
 footer{
     background-color: #9a270c;
@@ -256,15 +130,7 @@ footer{
 
 }
 
-footer a {
-    font-size: 2rem;
-}
-
-.bi {
-    color: #0c090c;
-}
-
-/*Porfolio*/
+/*Porfolio
 
 body {
     background-color: #ed927f;
@@ -273,19 +139,8 @@ body {
     min-height: 100vh;
 }
 
- /*Estilos del contenedor*/
 
- .gridContainer{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                         "main"
-                        "footer"
-   
-}
-
-/*Estilos de las fuentes*/
+/*Estilos de las fuentes
 
 p {
      font-size: 2em;
@@ -294,69 +149,6 @@ p {
      font-weight: bold;
 }     
 
-/*estilos del header y de sus hijos*/
-.encabezado{
-    grid-area: header;
-  
-}
-
-.encabezado nav {
-    background-color: #9a270c;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-.menu {
-    width: 100%;
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 2rem;
-    list-style-type: none;
-    color: #181520;
-}
-
-.encabezado nav img {
-    width: 10%;
-    padding: 2%;
-}
-
-main{
-    grid-area: main;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorFotos{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows :auto;
-    gap: 2%;
-    margin:3%;
-}
-
-.card{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card img {
-    width: 100%;
-}
-
-
 
 footer{
     background-color: #9a270c;
@@ -366,15 +158,8 @@ footer{
 
 }
 
-footer a {
-    font-size: 2rem;
-}
 
-.bi {
-    color: #0c090c;
-}
-
-/* Trabajo */
+/* Trabajo 
 body {
     background-color: #ed927f;
     position: relative;
@@ -382,19 +167,8 @@ body {
     min-height: 100vh;
 }
 
- /*Estilos del contenedor*/
 
- .gridContainer{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                         "main"
-                        "footer"
-   
-}
-
-/*Estilos de las fuentes*/
+/*Estilos de las fuentes
 
 
 p {
@@ -404,68 +178,7 @@ p {
      font-weight: bold;
 }     
 
-/*estilos del header y de sus hijos*/
-.encabezado{
-    grid-area: header;
-  
-}
 
-.encabezado nav {
-    background-color: #9a270c;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-.menu {
-    width: 100%;
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 2rem;
-    list-style-type: none;
-    color: #181520;
-}
-
-.encabezado nav img {
-    width: 10%;
-    padding: 2%;
-}
-
-main{
-    grid-area: main;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorFotos{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows :auto;
-    gap: 2%;
-    margin:3%;
-}
-
-.card{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}    
-
-.card img{
-    width: 50%;
-    
-}
 
 footer{
     background-color: #9a270c;
@@ -475,15 +188,8 @@ footer{
 
 }
 
-footer a {
-    font-size: 2rem;
-}
 
-.bi {
-    color: #0c090c;
-}    
-
- /* Contacto */
+ /* Contacto 
 
  body {
     background-color: #ed927f;
@@ -491,16 +197,8 @@ footer a {
     padding-bottom: 3em;
     min-height: 100vh;
 }
- /*Estilos del contenedor*/
+ /*Estilos del contenedor
 
- .gridContainer{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header"
-                          "footer"
-   
-}
 .redes {
     font-size: 2em;
     font-family: 'Poppins', sans-serif;
@@ -514,39 +212,6 @@ article {
 }
 
 
-/*estilos del header y de sus hijos*/
-.encabezado{
-    grid-area: header;
-  
-}
-
-.encabezado nav {
-    background-color: #9a270c;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-.menu {
-    width: 100%;
-    display:flex;
-    list-style: none;
-    justify-content: space-around;
-
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 2rem;
-    list-style-type: none;
-    color: #181520;
-}
-
-.encabezado nav img {
-    width: 10%;
-    padding: 2%;
-}
 
 footer{
     background-color: #9a270c;
@@ -556,13 +221,7 @@ footer{
 
 }
 
-footer a {
-    font-size: 2rem;
-}
-
-.bi {
-    color: #0c090c;
-}    
+*/
 
 @media screen and (max-width: 800px) {
     .encabezado nav img {
