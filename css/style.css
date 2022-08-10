@@ -20,6 +20,10 @@ body {
     width: 8%;
 }
 
+a.nav-link {
+    color: #efb810;
+ }
+
 .azul {
     background-color: #000000;
 }
@@ -28,13 +32,14 @@ body {
     display: flex;
     justify-content: space-around;
     margin: auto;
-    padding: 6%; 
+    padding: 3%; 
+    background-color: #0a0a0a;
  }
 
- .page {
+ p.card-text {
+    font-family: 'Poppins', sans-serif;
     color: #efb810;
  }
-
 /* Hover y efectos 
 .snip1284 {
     font-family: 'Raleway', Arial, sans-serif;
@@ -90,16 +95,15 @@ body {
     height: 100%;
   }
 */
+
 footer{
-    background-color: #9a270c;
+    margin: 0%;
+    padding: 0%;
     position: absolute;
+    background-color: #000000;
     bottom: 0%;
     width: 100%;
 }
-
-
-
-
 
 /* Estudios 
 
