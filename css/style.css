@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
-    background-color: #000000;
     padding-bottom: 3em;
     min-height: 100vh;
 }
@@ -49,13 +48,46 @@ p.card-text {
  }
  
 
- /* comienzo del footer */
+ /* comienzo del footer 
 footer{
     padding: 1em ;
     position: absolute;
     background-color: #000000;
     bottom: 0%;
     width: 100%;
+} */
+
+.footer-style {
+    padding-top: 1em;
+    background-color: #000000;
+}
+footer {
+  color: #efb810;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+
+footer .footer-above {
+  padding-top: 1em;
+  background-color: #000000;
+}
+footer .footer-col {
+  margin-bottom: 0.2em;
+}
+footer .footer-below {
+  padding: 1em ;
+  background-color: #000000;
+}
+
+.list-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* Estudios */
@@ -80,92 +112,6 @@ p {
     margin: 1%;
     padding: 1.5%;
 }
-
-/*Porfolio*/
-
-
-
-/* Trabajo 
-body {
-    background-color: #ed927f;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
-}
-
-
-/*Estilos de las fuentes
-
-
-p {
-     font-size: 1em;
-     font-family: 'Poppins', sans-serif;
-     color: #181520;
-     font-weight: bold;
-}     
-
-
-
-footer{
-    background-color: #9a270c;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-
-}
-
-
- /* Contacto 
-
- body {
-    background-color: #ed927f;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
-}
- /*Estilos del contenedor
-
-.redes {
-    font-size: 2em;
-    font-family: 'Poppins', sans-serif;
-    color: #181520;
-    font-weight: bold;
-}  
-
-article {
-    text-align: center;
-    padding: 5%;
-}
-
-
-
-footer{
-    background-color: #9a270c;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-
-}
-
-*/
-
-@media screen and (max-width: 800px) {
-    .encabezado nav img {
-        width: 20%;
-    }
-    .menu li a {
-       
-       font-size: 1rem;
-       
-       }
-       .contenedorFotos{
-     
-           grid-template-columns: repeat(2,1fr);
-         
-       
-       }
-
-   }
 
    @media screen and (max-width: 700px) {
     p {
