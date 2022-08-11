@@ -18,6 +18,7 @@ body {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
 }
+ 
 .logo {
     width: 8%;
 }
@@ -33,10 +34,10 @@ a.nav-link {
  main {
     display: flex;
     justify-content: space-around;
+    padding: 2%;
     margin: auto;
-    padding: 3%; 
-    background-color: #0a0a0a;
  }
+
 
  p.card-text {
     font-family: 'Poppins', sans-serif;
@@ -44,8 +45,7 @@ a.nav-link {
  }
  /* comienzo del footer */
 footer{
-    margin: 0%;
-    padding: 0%;
+    padding: 1.5em ;
     position: absolute;
     background-color: #000000;
     bottom: 0%;
@@ -57,12 +57,6 @@ footer{
 /* Estudios */
  
  /* Main */
-main {
-    margin: 0%;
-    padding: 9.5%; 
-    background-color: #0a0a0a;
-    
-}
 
 img {
     height: 18vh;
