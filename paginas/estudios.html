@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS FELXBOX
-    <link rel="stylesheet" href="./css/estilo.css"> -->
-    <!-- CSS GRID -->
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/aa98317f87.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Jose Blog</title>
     <!-- ICONO -->
     <link rel="shortcut icon" href="../Multimedia/JoseAngelFotoIcono.ico" type="image/x-icon">
-     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-</head>
+    </head>
 <body>
     <!-- Menu -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light azul">
+      <nav class="navbar navbar-expand-lg navbar-dark azul">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"> <img src="../multimedia/logo.jpg" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"> <img src="../multimedia/logo.jpg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,102 +50,68 @@
     <!-- Contenido Main -->
 
     <main>
- <section class="e_contenedorUno">
-    <h1>
-        Universidad de Margarita
-    </h1>
-     <p>
-        Estuide un breve periodo de tiempo idiomas modernos entre 2015 hasta 2018
-     </p>
-     <div class="e_card">
-        <img src="../multimedia/Unimar.jpg" alt="UniversidaddeMargarita">
-     </div>
- </section>
+      
+      <div class="card" style="width: 18rem;">
+        <img src="../multimedia/Unimar.jpg" class="card-img-top" alt="unimar">
+        <div class="shadow p-3 mb-5 bg-body rounded">
+        <div class="card-body">
+          <p class="card-text">Estuide un breve periodo de tiempo idiomas modernos entre 2015 hasta 2018..</p>
+        </div>
+      </div>
+      </div>
 
- <section class="e_contenedorDos">
-    <h1>
-        Instituto Da Vinci
-    </h1>
-    <p>
-        Estudie Diseño y Programación de Videojuegos desde el 2019 hasta 2021
-    </p>
-    <div class="e_card">
-        <img src="../multimedia/DaVinci.jpg" alt="DaVinci">
+      <div><div class="card" style="width: 18rem;">
+        <img src="../multimedia/DaVinci.jpg" class="card-img-top" alt="daVinci">
+        <div class="card-body">
+          <p class="card-text">Estudie Diseño y Programación de Videojuegos desde el 2019 hasta 2021.</p>
+        </div>
+      </div>
     </div>
- </section>
 
- <section>
-    <h1>
-        CoderHouse
-    </h1>
-    <p>
-        Estudiando en la actualidad Desarrollo Web Full Stack
-    </p>
-    <div class="e_card">
-        <img src="../multimedia/coderhouse.jpg" alt="CoherHouse">
+    <div class="card" style="width: 18rem;">
+      <img src="../multimedia/coderhouse.jpg" class="card-img-top" alt="coderhouse">
+      <div class="card-body">
+        <p class="card-text">Estudiando en la actualidad Desarrollo Web Full Stack</p>
+      </div>
     </div>
- </section>
-</main>
+    </main>
 
-
-<footer class="text-center text-dorado">
-  <!-- Contenedor redes sociales -->
-  <div class="container p-4 pb-0">
-    <!-- Redes sociales -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #efb810;"
-        href="https://www.facebook.com/jose.angel.9047"
-        role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-
-      <!-- Instagram -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #efb810;"
-        href="https://www.instagram.com/joseangelrl_/"
-        role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Github -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #efb810;"
-        href="https://github.com/joseRojas26"
-        role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-      <!-- Whatsapp -->
-      <a
-      class="btn btn-primary btn-floating m-1"
-      style="background-color: #efb810;"
-      href="https://wa.me/5492926454392"
-      role="button"
-      ><i class="fab fa-whatsapp"></i
-    ></a>
-    <!-- Youtube -->
-    <a
-    class="btn btn-primary btn-floating m-1"
-    style="background-color: #efb810;"
-    href="https://www.youtube.com/channel/UCYxWalQuWXCLmoBeb5u_N6g"
-    role="button"
-    ><i class="fab fa-youtube"></i
-  ></a>
-    </section>
-  </div>
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: #efb810">
-    © 2022 Copyright
+  <footer class="text-center footer-style">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 footer-col">
+              <h3>Dirección</h3>
+              <p>
+                  CABA - Argentina <br />
+              </p>
+          </div>
+          <div class="col-md-4 footer-col">
+              <h3>Mis redes</h3>
+              <ul class="list-inline">
+                  <li>
+                      <a  target="_blank" href="https://www.facebook.com/jose.angel.9047" class="btn-social btn-outline"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                      <a  target="_blank" href="https://www.instagram.com/joseangelrl_/" class="btn-social btn-outline"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                      <a  target="_blank" href="https://github.com/joseRojas26" class="btn-social btn-outline"><i class="fa-brands fa-github"></i></a>
+                  </li>
+                  <li>
+                      <a  target="_blank" href="https://wa.me/5492926454392" class="btn-social btn-outline"><i class="fa-brands fa-whatsapp"></i></a>
+                  </li>
+                  <li>
+                      <a  target="_blank" href="https://www.youtube.com/channel/UCYxWalQuWXCLmoBeb5u_N6g" class="btn-social btn-outline"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-4 footer-col">
+              <h3>Desarrollador web</h3>
+              <p>Me encanta lo que estudio y espero llegar lejos.</p>
+          </div>
+      </div>
   </div>
 </footer>
-   
-</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -48,14 +48,7 @@ p.card-text {
  }
  
 
- /* comienzo del footer 
-footer{
-    padding: 1em ;
-    position: absolute;
-    background-color: #000000;
-    bottom: 0%;
-    width: 100%;
-} */
+ /* comienzo del footer */
 
 .footer-style {
     padding-top: 1em;
@@ -94,10 +87,6 @@ footer .footer-below {
  
  /* Main */
 
-img {
-    height: 18vh;
-}
-
 h1 {
     color: #efb810;
     font-size: 2em;
@@ -112,6 +101,8 @@ p {
     margin: 1%;
     padding: 1.5%;
 }
+
+
 
    @media screen and (max-width: 700px) {
     p {
