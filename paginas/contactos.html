@@ -1,22 +1,23 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS FELXBOX
-    <link rel="stylesheet" href="./css/estilo.css"> -->
-    <!-- CSS GRID -->
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/aa98317f87.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Jose Blog</title>
     <!-- ICONO -->
     <link rel="shortcut icon" href="../Multimedia/JoseAngelFotoIcono.ico" type="image/x-icon">
-     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-</head>
+    </head>
 <body>
     <!-- Menu -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light azul">
+      <nav class="navbar navbar-expand-lg navbar-dark azul">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> <img src="../multimedia/logo.jpg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,65 +47,94 @@
       </nav>
     </header>
 
-    <footer class="text-center text-dorado">
-      <!-- Contenedor redes sociales -->
-      <div class="container p-4 pb-0">
-        <!-- Redes sociales -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #efb810;"
-            href="https://www.facebook.com/jose.angel.9047"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-    
-  
-          <!-- Instagram -->
-          <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #efb810;"
-            href="https://www.instagram.com/joseangelrl_/"
-            role="button"
-            ><i class="fab fa-instagram"></i
-          ></a>
+    <main>
+      <form>
+        <!-- Formulario -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <!-- Pimer nombre -->
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">Primer nombre</label>
+            </div>
+          </div>
+          <!-- Segundo nombre -->
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Segundo nombre</label>
+            </div>
+          </div>
+        </div>
+        <!-- Nombre de empresa -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example3" class="form-control" />
+          <label class="form-label" for="form6Example3">Nombre de empresa</label>
+        </div>
+      
+        <!-- Direccion -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Dirección</label>
+        </div>
+      
+        <!-- Email -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      
+        <!-- Mensaje -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+          <label class="form-label" for="form6Example7">Mensaje</label>
+        </div>
+      
+        <!-- Enviar -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+          <label class="form-check-label" for="form6Example8">Enviar</label>
+        </div>
+      
+      </form>
+    </main>
 
-          <!-- Github -->
-          <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #efb810;"
-            href="https://github.com/joseRojas26"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
-          <!-- Whatsapp -->
-          <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #efb810;"
-          href="https://wa.me/5492926454392"
-          role="button"
-          ><i class="fab fa-whatsapp"></i
-        ></a>
-        <!-- Youtube -->
-        <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #efb810;"
-        href="https://www.youtube.com/channel/UCYxWalQuWXCLmoBeb5u_N6g"
-        role="button"
-        ><i class="fab fa-youtube"></i
-      ></a>
-        </section>
-      </div>
-    
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: #efb810">
-        © 2022 Copyright
+    <footer class="text-center footer-style">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 footer-col">
+                  <h3>Dirección</h3>
+                  <p>
+                      CABA - Argentina <br />
+                  </p>
+              </div>
+              <div class="col-md-4 footer-col">
+                  <h3>Mis redes</h3>
+                  <ul class="list-inline">
+                      <li>
+                          <a  target="_blank" href="https://www.facebook.com/jose.angel.9047" class="btn-social btn-outline"><i class="fa-brands fa-facebook"></i></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://www.instagram.com/joseangelrl_/" class="btn-social btn-outline"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://github.com/joseRojas26" class="btn-social btn-outline"><i class="fa-brands fa-github"></i></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://wa.me/5492926454392" class="btn-social btn-outline"><i class="fa-brands fa-whatsapp"></i></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://www.youtube.com/channel/UCYxWalQuWXCLmoBeb5u_N6g" class="btn-social btn-outline"><i class="fa-brands fa-youtube"></i></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-4 footer-col">
+                  <h3>Desarrollador web</h3>
+                  <p>Me encanta lo que estudio y espero llegar lejos.</p>
+              </div>
+          </div>
       </div>
     </footer>
- 
-  
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
 </html>
