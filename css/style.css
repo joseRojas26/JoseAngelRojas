@@ -102,6 +102,32 @@ p {
     padding: 1.5%;
 }
 
+/* Trabajo */
+
+/* main */
+.t_contenedorFotos {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+} 
+
+.t_contenedorFotosDos {
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+img {
+    width: 50%;
+}
+
+/* Hobbies */
+
+/* main */
+
+
+
 
 
    @media screen and (max-width: 700px) {
