@@ -1,0 +1,27 @@
+.navbar {
+    font-size: $tamaño-principal;
+    font-family: $fuente-principal;
+}
+
+a {
+    
+ .nav-link {
+  &:hover {
+   color: $color-segundario;
+  }
+}
+}
+
+.logo {
+    width: $tamaño-logo;
+}
+
+a {
+    .nav-link {
+        color: $color-primario;
+    }
+}
+
+.azul {
+    background-color: $color-de-fondo;
+}
