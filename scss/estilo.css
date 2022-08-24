@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* Fuente*/
+.navbar {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+a .nav-link:hover {
+  color: red;
+}
+
+.logo {
+  width: 8%;
+}
+
+a .nav-link {
+  color: #efb810;
+}
+
+.azul {
+  background-color: #000000;
+}
+
+.footer-style {
+  padding-top: 0.5em;
+  background-color: #000000;
+}
+
+footer {
+  color: #efb810;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+footer h3 {
+  margin-bottom: 0.5em;
+  font-weight: 800;
+}
+
+footer .footer-above {
+  padding-top: 1em;
+  background-color: #000000;
+}
+
+footer .footer-col {
+  margin-bottom: 0.2em;
+}
+
+footer .footer-below {
+  padding: 1em;
+  background-color: #000000;
+}
+
+.list-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  margin: auto;
+}
+
+p .card-text {
+  font-family: "Poppins", sans-serif;
+  color: #efb810;
+}
+
+img {
+  width: 50%;
+}/*# sourceMappingURL=estilo.css.map */

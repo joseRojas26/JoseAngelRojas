@@ -1,0 +1,6 @@
+@mixin contenedorFotos ($dis, $just, $aling, $column){
+ display: $dis;
+ justify-content: $just;
+ align-items: $aling;
+ flex-direction: $column;
+}

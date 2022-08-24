@@ -1,0 +1,7 @@
+.t_contenedorFotos{
+@include contenedorFotos ( flex , center , center , column);
+}
+
+img {
+    width: $tamaño-img;
+}
