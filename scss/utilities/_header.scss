@@ -4,15 +4,20 @@
 }
 
 a {
-    li {
-        .nav-link {
-            &:hover {
-                color: $color-primario;
-            }
-        }
+   color: $color-segundario;
+}
+li {
+    @extend a; 
+    &:hover {
+        @extend li;
     }
 }
-
+.nav-link {
+    @extend li; 
+    &:hover {
+        @extend li 
+    }
+}
 .logo {
     width: $tamaño-logo;
 }

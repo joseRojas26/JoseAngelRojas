@@ -1,13 +1,9 @@
-main {
-    display: flex;
-    justify-content: space-around;
-    padding: $espacio-estandar;
-    margin: auto;
+.card-title {
+    font-family: $fuente-principal;
+    font-size: $tamaño-principal;
+    font-weight: $negrita;
 }
-
-p {
-    .card-text {
-        font-family: $fuente-segundaria;
-        color: $color-primario;
-    }
-}
+.card-text {
+    font-family: $fuente-segundaria;
+    color: $color-primario;
+ }

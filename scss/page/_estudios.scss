@@ -5,5 +5,10 @@ h1 {
 }
 
 p {
-    @extend h1  
+    color: #efb810;
+    font-size: $tamaño-segundaria;
+    font-family: $fuente-segundaria;
+    font-weight: $negrita;
+    margin: 1%;
+    padding: 1.5%;
 }
