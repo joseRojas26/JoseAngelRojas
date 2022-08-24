@@ -1,15 +1,19 @@
-@import "./utilities/variables";
-@import "./base/typo";
 @import "./base/reset";
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./utilities/mixins";
 
-/* Fuente*/ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
-
 
 @import "./utilities/header";
 @import "./utilities/footer";
 
 
 @import "./page/index";
+@import "./page/estudios";
 @import "./page/trabajos";
+@import "./page/hobbies";
+@import "./page/portafolio";
+@import "./page/contactos";
+

@@ -4,12 +4,13 @@
 }
 
 a {
-
- .nav-link {
-  &:hover {
-   color: $color-segundario;
-  }
-}
+    li {
+        .nav-link {
+            &:hover {
+                color: $color-primario;
+            }
+        }
+    }
 }
 
 .logo {

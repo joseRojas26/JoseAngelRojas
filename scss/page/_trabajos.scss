@@ -2,6 +2,10 @@
 @include contenedorFotos ( flex , center , center , column);
 }
 
+.t_contenedorFotosDos {
+@include contenedorFotos ( flex , center , center , column);
+}
+
 img {
     width: $tamaño-img;
 }

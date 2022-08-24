@@ -4,14 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} /* Fuente*/
+}
+
+body {
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
 .navbar {
   font-size: 2em;
   font-family: "Roboto", sans-serif;
 }
 
-a .nav-link:hover {
-  color: red;
+a li .nav-link:hover {
+  color: #efb810;
 }
 
 .logo {
@@ -63,11 +69,6 @@ footer .footer-below {
   justify-content: space-around;
 }
 
-body {
-  padding-bottom: 3em;
-  min-height: 100vh;
-}
-
 main {
   display: flex;
   justify-content: space-around;
@@ -80,6 +81,35 @@ p .card-text {
   color: #efb810;
 }
 
+h1, p {
+  color: #efb810;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.t_contenedorFotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.t_contenedorFotosDos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 img {
   width: 50%;
+}
+
+.container-fluid {
+  height: 55%;
+  width: 60%;
+}
+
+.carousel-inner img {
+  height: 80%;
 }/*# sourceMappingURL=estilo.css.map */

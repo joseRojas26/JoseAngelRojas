@@ -1,0 +1,9 @@
+h1 {
+    color: #efb810;
+    font-size: $tamaño-principal;
+    font-family: $fuente-principal;
+}
+
+p {
+    @extend h1  
+}
