@@ -1,9 +1,15 @@
-$color-de-fondo: #000000;
-$color-primario: #efb810;
-$color-segundario: red;
-
 $tamaño-logo: 8%;
 $tamaño-img: 50%;
 
 $espacio-estandar: 2%;
 $espacio-normal: 1em;
+
+$colores: (
+    "bgcolor" #000000,
+    "primario"  #efb810,
+    "segundario" red,
+)
+
+@function color($search) {
+    @return map-get($colores, $search);
+  }

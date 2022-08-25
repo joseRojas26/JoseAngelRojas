@@ -1,10 +1,10 @@
 .footer-style {
     padding-top: 0.5em;
-    background-color: $color-de-fondo;
+    background-color: "bgcolor";
 }
 
 footer {
-    color: $color-primario;
+    color: "primario";
     position: absolute;
     bottom: 0%;
     width: 100%;
@@ -19,7 +19,7 @@ footer {
 footer{
     .footer-above {
         padding-top: $espacio-normal;
-        background-color: $color-de-fondo;
+        background-color: "bgcolor";
     }
 }
 
@@ -32,7 +32,7 @@ footer{
 footer {
     .footer-below {
         padding: $espacio-normal;
-        background-color: $color-de-fondo;
+        background-color: "bgcolor";
     }
 }
 

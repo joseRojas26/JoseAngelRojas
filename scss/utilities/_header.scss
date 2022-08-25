@@ -4,7 +4,7 @@
 }
 
 a {
-   color: $color-segundario;
+   color: "segundario";
 }
 li {
     @extend a; 
@@ -24,10 +24,10 @@ li {
 
 a {
     .nav-link {
-        color: $color-primario;
+        color: "primario";
     }
 }
 
 .azul {
-    background-color: $color-de-fondo;
+    background-color: "bgcolor";
 }
