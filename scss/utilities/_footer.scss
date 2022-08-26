@@ -1,7 +1,7 @@
 footer {
     background-color: $negro;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     width: 100%;
     .text-center {
     color: $amarillo;
@@ -19,5 +19,8 @@ footer {
     align-items: center;
     justify-content: space-around;
     }
-        
+     h3 {
+        color: $amarillo;
+
+     }   
 }

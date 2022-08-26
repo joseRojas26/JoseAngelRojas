@@ -1,7 +1,13 @@
+.imgcard {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5em;
 }
 .card-title {
     font-family: $fuente-principal;
