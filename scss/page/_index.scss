@@ -1,9 +1,14 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .card-title {
     font-family: $fuente-principal;
     font-size: $tamaño-principal;
-    font-weight: $negrita;
+    font-weight: bold;
 }
 .card-text {
     font-family: $fuente-segundaria;
-    color: "primario";
+    color: $amarillo;
  }

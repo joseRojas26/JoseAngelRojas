@@ -1,14 +1,14 @@
 h1 {
-    color: "primario";
+    color: $negro;
     font-size: $tamaño-principal;
     font-family: $fuente-principal;
 }
 
 p {
-    color: "primario";
+    color: $amarillo;
     font-size: $tamaño-segundaria;
     font-family: $fuente-segundaria;
-    font-weight: $negrita;
+    font-weight: bold;
     margin: 1%;
     padding: 1.5%;
 }

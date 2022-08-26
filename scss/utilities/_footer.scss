@@ -1,43 +1,23 @@
-.footer-style {
-    padding-top: 0.5em;
-    background-color: "bgcolor";
-}
-
 footer {
-    color: "primario";
+    background-color: $negro;
     position: absolute;
     bottom: 0%;
     width: 100%;
-}
-
-footer {
-    h3 {
-        margin-bottom: 0.5em;
-        font-weight: 800;
+    .text-center {
+    color: $amarillo;
     }
-}
-footer{
+    .footer-style {
+    padding-top: 0.5em;
+    background-color: $negro;
+    }
     .footer-above {
-        padding-top: $espacio-normal;
-        background-color: "bgcolor";
+    padding-top: $espacio-normal;
+    background-color: $negro;
     }
-}
-
-footer{
-    .footer-col {
-        margin-bottom: 0.2em;
-    }
-}
-
-footer {
-    .footer-below {
-        padding: $espacio-normal;
-        background-color: "bgcolor";
-    }
-}
-
-.list-inline {
+    .list-inline {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    }
+        
 }

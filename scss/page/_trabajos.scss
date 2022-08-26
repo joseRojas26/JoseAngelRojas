@@ -1,11 +1,8 @@
-.t_contenedorFotos{
-@include contenedorFotos ( flex , center , center , column);
-}
-
-.t_contenedorFotosDos {
-@include contenedorFotos ( flex , center , center , column);
-}
-
-img {
-    width: $tamaño-img;
+p {
+    color: $amarillo;
+    font-size: $tamaño-segundaria;
+    font-family: $fuente-segundaria;
+    font-weight: bold;
+    margin: 1%;
+    padding: 1.5%;
 }
