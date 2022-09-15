@@ -26,10 +26,8 @@ body {
     font-size: 18px;
     text-align: center;
   }
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  .imggif {
+    height: 12rem;
   }
 }
 .navbar {
@@ -65,7 +63,6 @@ a .nav-link {
 footer {
   background-color: #000000;
   position: absolute;
-  bottom: 0;
   width: 100%;
 }
 footer .text-center {
@@ -144,13 +141,8 @@ p {
   padding: 1.5%;
 }
 
-.container-fluid {
-  height: 55%;
-  width: 60%;
-}
-
-.carousel-inner img {
-  height: 80%;
+.imggif {
+  max-width: 100%;
 }
 
 .imgcard {
