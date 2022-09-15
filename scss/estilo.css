@@ -26,9 +26,6 @@ body {
     font-size: 18px;
     text-align: center;
   }
-  .imggif {
-    height: 12rem;
-  }
 }
 .navbar {
   font-size: 2em;
@@ -139,6 +136,10 @@ p {
   font-weight: bold;
   margin: 1%;
   padding: 1.5%;
+}
+
+.imggif {
+  max-height: 100%;
 }
 
 .imgcard {
